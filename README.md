@@ -8,7 +8,6 @@ El desarrollo de este ejercicio tiene como objetivo la aplicación de los princi
 
 ### DISEÑO: Diagrama de Clases📋
 ---
-https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg
 <p align="center">
   <img src="https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg" width="350" title="hover text">
   <img src="https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg" width="350" alt="accessibility text">
