@@ -11,6 +11,8 @@ El desarrollo de este ejercicio tiene como objetivo la aplicación de los princi
 <p align="center">
   <img src="https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg" width="350" title="hover text">
  	
+![Diagrama de clases](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg)
+
 ### Ubicación de cada principio📌
 ---
 Se explica donde y como esta aplicado cada uno de los principios SOLID, y se ilustra con el diagrama de clases enfocando la parte en donde se evidencia.
