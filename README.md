@@ -28,10 +28,10 @@ El desarrollo de este ejercicio tiene como objetivo la aplicación de los princi
 #### Principio de Inversión de Dependencias
 ---
 
-### Autores
+### Autores✒️
 ---
 Angie Alina Estefania Peña Bolivar - 20181020146
 
-### Información Adicional
+### Información Adicional⚙️
 ---
 Se encuentra, por el momento, unicamente el diseño del desarrollo.
