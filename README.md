@@ -24,7 +24,7 @@ En este caso especifico este principio se aplico en la separación entre las cla
 ---
 Este es el principio que trata sobre como las clases deben estar abiertas a extensiones y cerradas a modificaciones, esto quiere decir, que si requiero agregar una nueva funcionalidad no puedo modificar el codigo pero si lo puedo extender.
 
-En este caso el principio se ubica en la clase Instrumento, cada vez que tenga que agregar otro nuevo tipo de instrumentos, se debe modificar el código y es allí donde aplicamos el principio Open/Closed exactamente cuando yo desee agregar otra funcionalidad, en este caso, otro tipo de instrumentos, no tengo que modificar la clase de Instrumento, porque esta se penso como una clase abstracta que tiene los metodos de tocar y afinar que se utilizan para todos los tipos de instrumentossin que se tenga que tocar la clase Instrumento posteriormente.
+En este caso el principio se ubica en la clase Instrumento, cada vez que tenga que agregar otro nuevo tipo de instrumentos, se debe modificar el código y es allí donde aplicamos el principio Open/Closed exactamente cuando yo desee agregar otra funcionalidad, en este caso, otro tipo de instrumentos, no tengo que modificar la clase de Instrumento, porque esta se penso como una clase abstracta que tiene los metodos de tocar y afinar que se utilizan para todos los tipos de instrumentos sin que se tenga que tocar la clase Instrumento posteriormente.
 
 #### Principio de Sustitución de Liskov
 ---
@@ -35,14 +35,14 @@ Este principio se basa en asegurarnos de que cuando extendemos una clase, no est
 
 #### Principio de Segregación de Interfaces
 ---
-En este caso este principio se enfoco en la clase Musico y se analizo como esta tenia metodos que no iba a implementar en todos los casos, y contrario a solucionarlo con un metodo vacío o una expeción, se debe tener como guia este principio que nos habla acerca de que las clases no deben depender de interfaces que no se vayan a utilizar, para este caso se tomo la interfaz que tenia dos metodos y se dividio en dos interfaces, esto permite que las interfaces se usen por completo, esto se hizo de esta forma para visualizar ell principio a pequeña escala pero ya en una situación más compleja la solución no es tan sencilla y se puede solucionar con un patron de diseño.
+En este caso este principio se enfoco en la clase Musico y se analizo como esta tenía metodos que no iba a implementar en todos los casos, y contrario a solucionarlo con un metodo vacío o una expeción, se debe tener como guia este principio que nos habla acerca de que las clases no deben depender de interfaces que no se vayan a utilizar, para este caso se tomo la interfaz que tenia dos metodos y se dividio en dos interfaces, esto permite que las interfaces se usen por completo, esto se hizo de esta forma para visualizar ell principio a pequeña escala pero ya en una situación más compleja la solución no es tan sencilla y se puede solucionar con un patron de diseño.
 
 
 #### Principio de Inversión de Dependencias
 ---
 Este principio trata acerca de que los modulos de nivel alto no deben depender de modulos de nivel bajo sino de abstracciones, es decir que lo más importante no puede depender de lo menos importante, y esto se puede lograr por medio de abstracciones. Una de las ventajas de este principio es que si se logra que un modulo no dependa de otro se podra utilizar en otros proyectos.
 
-En este caso este principio se evidencia en la creación de una clase interfaz que es el estos son metodos de , para asi poder dejar la clase, donde si se realiza una inyección de dependencias mediante el constructor, es decir, llamar a los metodos de la interfaz desde la clase , por medio de esto se puede observar como gracias a esto puedo cambiar la interfaz sin afectar el comportamiento, se separaron dos clases que estabanm acopladas cumpliendo con este principio. 
+En este caso este principio se evidencia en la creación de la clase Instrumento donde se encuentran dos metodos, afinar y tocar, y si estos se crean en una interfaz que sea funcionesInstrumento y por medio de una inyección de dependencias mediante el constructor, es decir, llamar a los metodos de la interfaz desde la clase , se puede observar como puedo cambiar la interfaz sin afectar el comportamiento. 
 
 ### Autores✒️
 ---
