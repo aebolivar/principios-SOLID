@@ -12,12 +12,18 @@ El desarrollo de este ejercicio tiene como objetivo la aplicación de los princi
  	
 ### Ubicación de cada principio📌
 ---
+Se explica donde y como esta aplicado cada uno de los principios SOLID, y se ilustra con el diagrama de clases especifico de donde se evidencia.
 
 #### Principio de Responsabilidad Unica
 ---
+Este principio es el que se refiere a que una clase debe cambiar por una unica razón, para ubicar este principio se debe en primer lugar identificar las responsabilidades que tiene cada clase y pensar en que al momento de la extensión o cambios que se requieran se consiga afectar al menor numero de partes posibles de la aplicación.
 
+En este caso especifico este principio se aplico en la separación entre el estado de la persona y la representación 
 #### Principio de Open/Closed
 ---
+Este es el principio que trata sobre como las clases deben estar abiertas a extensiones y cerradas a modificaciones, esto quiere decir, que si requiero agregar una nueva funcionalidad no puedo modificar el codigo pero si lo puedo extender.
+
+En este caso el principio se ubica en la clase Instrumento, cada vez que tenga que agregar otro nuevo tipo de instrumentos, se debe modificar el código y es allí donde aplicamos el principio Open/Closed exactamente cuando yo desee agregar otra funcionalidad, en este caso, otro tipo de instrumentos, no tengo que modificar la clase de Instrumento, porque esta se penso como una clase abstracta que tiene los metodos de tocar y afinar que se utilizan para todos los tipos de instrumentossin que se tenga que tocar la clase Instrumento posteriormente.
 
 #### Principio de Sustitución de Liskov
 ---
@@ -27,6 +33,7 @@ El desarrollo de este ejercicio tiene como objetivo la aplicación de los princi
 
 #### Principio de Inversión de Dependencias
 ---
+Este principio trata acerca de que los modulos de nivel alto no deben depender de modulos de nivel bajo sino de abstracciones, es decir que lo más importante no puede depender de lo menos importante. Si se logra que un modulo no dependa de otro ya lo podre utilizar en otros proyectos
 
 ### Autores✒️
 ---
