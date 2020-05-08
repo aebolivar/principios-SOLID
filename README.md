@@ -7,10 +7,7 @@ A través de este programa se podrá gestionar los musicos e instrumentos, de ma
 El desarrollo de este ejercicio tiene como objetivo la aplicación de los principios SOLID (minimo 3), y se encuentra dividido en dos partes, la primera parte que es su diseño y la segunda, que comprende la implementación. De acuerdo a lo anterior, se mostrara en su primera parte la estructura de este desarrollo por medio de su Diagrama de Clases y se ubicara de manera clara donde estan aplicados estos principios. 
 
 ### DISEÑO: Diagrama de Clases📋
----
-<p align="center">
-  <img src="https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg" width="350" title="hover text">
- 	
+--- 	
 ![Diagrama de clases](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg)
 
 ### Ubicación de cada principio📌
