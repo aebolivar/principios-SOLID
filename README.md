@@ -63,5 +63,9 @@ Para poder ejecutar el programa correctamente debe tener instalado Flask.
 Flask es un MicroFrameWork, un ambiente web.
 Para instalar Flask usar el siguiente comando:
 
+![Diagrama de clases](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/pip.png)
+
+'pip install Flask'
+
 OBSERVACIÓN: Si su consola no reconoce 'pip' como un comando seguramente deberá modificar la configuración de 'PATH'.
 Para mayor información consulte la pagina de Flask: https://flask.palletsprojects.com/en/1.1.x/installation/
