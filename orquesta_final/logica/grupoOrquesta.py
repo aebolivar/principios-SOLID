@@ -20,14 +20,12 @@ class grupoOrquesta:
         return self.listInstrumento
 
     def afinargrupoOrquesta(self):
-        """Recorre los objetos de la lista y los afina"""
         self.listInstrumentoAfinar.clear()
         for i in range(0, len(self.listOrquesta)):
             self.listInstrumentoAfinar.append(self.listOrquesta[i].afinarInstrumento())
         return self.listInstrumentoAfinar
 
     def tocargrupoOrquesta(self):
-        """Hace que la banda toque"""
         self.listInstrumentoTocar.clear()
         for i in range(0, len(self.listOrquesta)):
             self.listInstrumentoTocar.append(self.listOrquesta[i].tocarInstrumento())
