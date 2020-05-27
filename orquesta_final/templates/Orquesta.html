@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Generar Orquesta</title>
+    <link rel="stylesheet" href="static/css/estilos.css">
+  </head>
+  <body>    
+      <div class="container">
+          <div class="row">
+              <div class="col s12">
+                <center>
+                  <h1>Orquesta "Sun 21"</h1>
+                  {%for i in range(assignedgrupoOrquesta|count)%}
+                      <div class="carousel center-align">
+                          <div class="carousel-item">
+                              <h2 class="subtitulo">Musico: {{i+1}}</h2>
+                              <p class="sabor">{{assignedgrupoOrquesta[i]}}<p>
+                              <img src={{ url_for('static', filename=assignedgrupoOrquesta[i]+".png") }} alt=instrument /></p></p>                   
+                          </div>
+                          {{afinargrupoOrquesta[i]}}
+                          {{tocargrupoOrquesta[i]}}
+                      </div>
+                  {%endfor%}
+                </center>
+              </div>
+          </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+      <!-- JS Main -->
+      <script src="js/main.js"></script>
+    
+    {% if tocargrupoOrquesta %}
+      <p>Tocando</p>
+    {% endif %}
+      
+  </body>
+</html>
