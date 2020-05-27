@@ -64,5 +64,4 @@ Flask es un MicroFrameWork, un ambiente web.
 Para instalar Flask usar el siguiente comando:
 
 OBSERVACIÓN: Si su consola no reconoce 'pip' como un comando seguramente deberá modificar la configuración de 'PATH'.
-Mayor información: 
-PAGINA DOCUMENTACIÓN FLASK: https://flask.palletsprojects.com/en/1.1.x/installation/
+Para mayor información consulte la pagina de Flask: https://flask.palletsprojects.com/en/1.1.x/installation/
