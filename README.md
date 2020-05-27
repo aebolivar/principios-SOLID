@@ -67,5 +67,5 @@ Para instalar Flask usar el siguiente comando:
 
 'pip install Flask'
 
-OBSERVACIÓN: Si su consola no reconoce 'pip' como un comando seguramente deberá modificar la configuración de 'PATH'.
 Para mayor información consulte la pagina de Flask: https://flask.palletsprojects.com/en/1.1.x/installation/
+OBSERVACIÓN: Si su consola no reconoce 'pip' como un comando seguramente deberá modificar la configuración de 'PATH'.
