@@ -34,11 +34,13 @@ En este caso el principio se ubica en la clase Instrumento, cada vez que tenga q
 ---
 Este principio se basa en asegurarnos de que cuando extendemos una clase, no estamos alterando el comportamiento de la clase principal, en lo práctico el principio expone como si se tiene una clase base que tiene una clase derivada y esta última se sustituye y el programa sigue funcionando, entonces la clase derivada es una subtipo de la clase base, y se cumple con lo que se enuncia inicialmente.
 
+![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSustitucionLiskov.png)
+
 #### Principio de Segregación de Interfaces
 ---
 En este caso este principio se enfoco en la clase Musico y se analizo como esta tenía metodos que no iba a implementar en todos los casos, y contrario a solucionarlo con un metodo vacío o una expeción, se debe tener como guia este principio que nos habla acerca de que las clases no deben depender de interfaces que no se vayan a utilizar, para este caso se tomo la interfaz que tenia dos metodos y se dividio en dos interfaces, esto permite que las interfaces se usen por completo, esto se hizo de esta forma para visualizar ell principio a pequeña escala pero ya en una situación más compleja la solución no es tan sencilla y se puede solucionar con un patron de diseño.
 
-![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSegregaciondeInterfaces.png)
+![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSegregaci%C3%B3nInterfaces.png)
 
 #### Principio de Inversión de Dependencias
 ---
@@ -46,7 +48,7 @@ Este principio trata acerca de que los modulos de nivel alto no deben depender d
 
 En este caso este principio se evidencia en la creación de la clase Instrumento donde se encuentran dos metodos, afinar y tocar, y si estos se crean en una interfaz que sea funcionesInstrumento y por medio de una inyección de dependencias mediante el constructor, es decir, llamar a los metodos de la interfaz desde la clase , se puede observar como puedo cambiar la interfaz sin afectar el comportamiento. 
 
-![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioInversiondeDependencias.png)
+![Diagrama de clases: PRU](hhttps://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioInversi%C3%B3ndeDependencias.png)
 
 ### Autores✒️
 ---
