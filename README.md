@@ -48,7 +48,7 @@ Este principio trata acerca de que los modulos de nivel alto no deben depender d
 
 En este caso este principio se evidencia en la creación de la clase Instrumento donde se encuentran dos metodos, afinar y tocar, y si estos se crean en una interfaz que sea funcionesInstrumento y por medio de una inyección de dependencias mediante el constructor, es decir, llamar a los metodos de la interfaz desde la clase , se puede observar como puedo cambiar la interfaz sin afectar el comportamiento. 
 
-![Diagrama de clases: PRU](hhttps://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioInversi%C3%B3ndeDependencias.png)
+![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioInversi%C3%B3ndeDependencias.png)
 
 ### Autores✒️
 ---
