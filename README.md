@@ -8,7 +8,7 @@ El desarrollo de este ejercicio tiene como objetivo la aplicación de los princi
 
 ### DISEÑO: Diagrama de Clases📋
 --- 	
-
+![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg)
 
 ### Ubicación de cada principio📌
 ---
