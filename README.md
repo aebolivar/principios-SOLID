@@ -1,6 +1,6 @@
-# Diseño del programa de Serenatas aplicando los principios SOLID
+# Diseño del programa de Orquesta aplicando los principios SOLID
 
-A través de este programa se podrá gestionar los musicos e instrumentos, de manera aleatoria, que podrán asistir a los eventos para los cuales se les contrate. Se tiene en cuenta que cada uno de estos musicos van a tener una disponibilidad condicionada por el desarrollo de sus distintas actividades personales, razón por la cual cada uno de ellos asistira a la serenata si para ese momento estan disponibles. A la llegada de la serenata los instrumentos se podrán afinar y tocar.
+A través de este programa se podrá gestionar los musicos e instrumentos, de manera aleatoria, que podrán asistir a los eventos para los cuales se les contrate. Se tiene en cuenta que cada uno de estos musicos van a tener una disponibilidad condicionada por el desarrollo de sus distintas actividades personales, razón por la cual cada uno de ellos asistira a al evento de la orquesta si para ese momento estan disponibles. A la llegada de la orquesta los instrumentos se podrán afinar y tocar.
 
 ### Aplicando los principios SOLID 🔧
 ---
@@ -54,4 +54,15 @@ Angie Alina Estefania Peña Bolivar - 20181020146
 
 ### Información Adicional⚙️
 ---
-Se encuentra, por el momento, unicamente el diseño del desarrollo.
+Primera parte: Diseño, que se encuentra en el presente README
+Segunda parte: Implementación, que se encuentra en la carpeta "orquesta_final"
+
+### Configuración🛠️
+---
+Para poder ejecutar el programa correctamente debe tener instalado Flask.
+Flask es un MicroFrameWork, un ambiente web.
+Para instalar Flask usar el siguiente comando:
+
+OBSERVACIÓN: Si su consola no reconoce 'pip' como un comando seguramente deberá modificar la configuración de 'PATH'.
+Mayor información: 
+PAGINA DOCUMENTACIÓN FLASK: https://flask.palletsprojects.com/en/1.1.x/installation/
