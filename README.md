@@ -68,7 +68,7 @@ Segunda parte: Implementación, que se encuentra en la carpeta "orquesta_final"
 ---
 
 <p align="center"> <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Python.png" width="200" height="200"/> </p> 
-<p align="center"> <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Flask.png" width="200" height="200"/> </p> 
+<p align="center"> <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Flask.png" width="400" height="200"/> </p> 
 
 Para poder ejecutar el programa correctamente debe tener instalado Flask.
 Flask es un MicroFrameWork, un ambiente web.
