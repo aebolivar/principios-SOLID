@@ -67,6 +67,13 @@ Segunda parte: Implementación, que se encuentra en la carpeta "orquesta_final"
 ### Configuración🛠️
 ---
 
+<a href="#">Link 2</a> |
+  <a href="#">Link 3</a>
+  <br><br>
+  <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Python.png">
+  <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Flask.png">
+</p>
+
 <p align="center"> <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Python.png" width="200" height="200"/> </p> 
 
 Para poder ejecutar el programa correctamente debe tener instalado Flask.
