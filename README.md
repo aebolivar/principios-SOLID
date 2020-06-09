@@ -1,5 +1,7 @@
 # Diseño del programa de Orquesta aplicando los principios SOLID
 
+<p align="center"> <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Encabezado.png"> </p> 
+
 A través de este programa se podrá gestionar los musicos e instrumentos, de manera aleatoria, que podrán asistir a los eventos para los cuales se les contrate. Se tiene en cuenta que cada uno de estos musicos van a tener una disponibilidad condicionada por el desarrollo de sus distintas actividades personales, razón por la cual cada uno de ellos asistira a al evento de la orquesta si para ese momento estan disponibles. A la llegada de la orquesta los instrumentos se podrán afinar y tocar.
 
 ### Aplicando los principios SOLID 🔧
